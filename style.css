@@ -1,0 +1,78 @@
+body
+{
+	font-family: 'Bubblegum Sans', cursive;
+	background-color: gray;
+}
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+#game
+{
+	float: left;
+	width: 600px;
+	background-color: #0033CC;
+	height: 600px;
+}
+.board
+{
+	float:left;
+	width: 50px;
+	height: 50px;
+}
+#everything
+{
+	font-size: 35px;
+	background-color: #9900CC;
+	float: left;
+	width: 390px;
+	border: 5px dashed #00CC33;
+	height: 570px;
+	text-align: center;
+	padding-top: 20px;
+}
+#menu
+{
+	height: 88%;
+}
+.button
+{
+	width: 25%;
+	font-size: 20px;
+	text-align: center;
+	background-color: #00CC33;
+	border: 2px solid black;
+	display: inline-block;
+}
+.button:hover
+{
+	background-color: #00BB22;
+	cursor: pointer;
+}
+#v
+{
+	text-align: right;
+	font-size: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.control
+{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: teal;
+}
+.control:hover
+{
+	background-color: #009090;
+	cursor: pointer;
+}
+#footer
+{
+	font-size: 12px;
+}
